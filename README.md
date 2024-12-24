@@ -97,15 +97,14 @@ This method combines the predictions of multiple regression models through ensem
  **Threshold Tuning:**
    - Adjust thresholds to minimize prediction errors.
    - Optimize the ensemble performance using the QWK score.
-     
-     ![image](https://github.com/user-attachments/assets/46e7d3e2-9969-427d-982a-2caacb125cd6)
-
 
  **Evaluation:**
  
    ![image](https://github.com/user-attachments/assets/36bf6390-6566-4f59-8194-d058d7031bcb)
 
 
+## 5. Final standing
 
+![398444090-0c82e60b-fbd9-4b18-adb1-b675acfc5ed6](https://github.com/user-attachments/assets/bae62d04-4d36-46ce-a01b-a9542f3133d4)
 
 
