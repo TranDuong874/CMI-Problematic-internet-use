@@ -8,6 +8,8 @@ As you can see, we have the main versions 1.0, 2.0, and 3.0, but what about vers
 
 ## 1. Indirect Prediction of SII (via PCIAT)
 To estimate the Self-Identified Internet Addiction Score (SII), we first predict the component columns of the PCIAT (Problematic Internet Use scale) using machine learning models. The SII is then derived indirectly by aggregating the predicted PCIAT scores.
+![image](https://github.com/user-attachments/assets/417fcf81-7989-4d85-a284-5ff52a7eb1b4)
+
 
 ### Steps:
  **Data Preprocessing:**
@@ -28,11 +30,13 @@ To estimate the Self-Identified Internet Addiction Score (SII), we first predict
    - Compare the derived SII values with the ground truth SII values.
    - Metrics used: QWK Score
      
-     ![image](https://github.com/user-attachments/assets/fa91fcd4-6926-4e14-9072-cf6335dcf76a)
+   -  ![image](https://github.com/user-attachments/assets/fa91fcd4-6926-4e14-9072-cf6335dcf76a)
 
 
 ## 2. Direct Prediction of SII + Grid Search Optimization
 In this approach, the SII is predicted directly from the input features using a single regression model.
+   - ![image](https://github.com/user-attachments/assets/2d6c0ea0-0a0d-448d-8032-05398bd5a9a5)
+
 
 ### Improvements:
    - Predicting SII directly
@@ -82,6 +86,8 @@ This approach uses XGBoost, a powerful gradient boosting algorithm, combined wit
 
 ## 4. Vote Regressor + Threshold Tuning
 This method combines the predictions of multiple regression models through ensemble learning and tunes thresholds for better accuracy.
+   - ![image](https://github.com/user-attachments/assets/54699b3c-a3fc-43d9-9d7d-c4a760c51f31)
+
 
 ### Improvements:
    - Using voting regressor
