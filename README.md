@@ -34,6 +34,11 @@ To estimate the Self-Identified Internet Addiction Score (SII), we first predict
 ## 2. Direct Prediction of SII + Grid Search Optimization
 In this approach, the SII is predicted directly from the input features using a single regression model.
 
+### Improvements:
+   - Predicting SII directly
+   - Balanced weights
+   - Stratified split for train/validation sets
+      
 ### Steps:
  **Data Preparation:**
    - Prepare features and labels (SII).
@@ -57,6 +62,10 @@ In this approach, the SII is predicted directly from the input features using a 
 ## 3. XGBoost + Threshold Tuning
 This approach uses XGBoost, a powerful gradient boosting algorithm, combined with threshold tuning to enhance prediction accuracy.
 
+### Improvements:
+   - Decision threshold tuning
+   - Feature engineering
+      
 **Model Training:**
    - Train an XGBoost regressor using training data.
      
@@ -74,6 +83,10 @@ This approach uses XGBoost, a powerful gradient boosting algorithm, combined wit
 ## 4. Vote Regressor + Threshold Tuning
 This method combines the predictions of multiple regression models through ensemble learning and tunes thresholds for better accuracy.
 
+### Improvements:
+   - Using voting regressor
+   - Complementing XGBoost model with Random Forest
+      
 ### Steps:
 **Ensemble Creation:**
    - Train multiple regression models :  Random Forest + XGBoost
