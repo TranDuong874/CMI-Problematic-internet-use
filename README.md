@@ -3,6 +3,11 @@
 ## About this repository
 This repository contains the code for our machine learning project for the final. It includes 3 main versions of our model, the data, and the related documents.
 
+## Competition certificate
+[![Kaggle Certificate](https://img.shields.io/badge/Kaggle-Certificate-blue?style=flat&logo=kaggle)](https://www.kaggle.com/certification/competitions/tranthaiduong123/child-mind-institute-problematic-internet-use)
+![download](https://github.com/user-attachments/assets/045365bc-b9a7-4524-bd04-96df41c20efc)
+
+
 ### Where are the sub-versions?
 As you can see, we have the main versions 1.0, 2.0, and 3.0, but what about versions 1.1, 2.1, and so on? The sub-versions are integrated directly into the main versions. Each code file contains the latest sub-version of the corresponding main version.
 
